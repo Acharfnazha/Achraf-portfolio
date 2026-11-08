@@ -1,34 +1,29 @@
-# Achraf Ali Nazha — Professional Portfolio
+# Achraf Ali Nazha · Portfolio
 
-A complete responsive frontend portfolio inspired by the dark red cinematic hero style you requested.
-
-## Run locally
-
-```bash
-npm install
-npm run dev
-```
-
-Open `http://localhost:3000`.
-
-## Important
-
-This ZIP is packaged with `package.json` at the root. After extracting, open PowerShell inside the extracted folder and run the commands above.
+A responsive personal portfolio that brings together my projects, technical skills, certifications, and contact information. The site uses a dark visual theme, an animated hero, and a layout designed for desktop and mobile.
 
 ## Stack
 
-- Next.js
-- React
-- Tailwind CSS
-- Framer Motion
-- Lenis smooth scrolling
-- Phosphor Icons
+Next.js, React, TypeScript, and Tailwind CSS. Framer Motion handles animation, Lenis handles smooth scrolling, and Phosphor provides the icons.
 
-## Main sections
+## Run locally
 
-- Cinematic hero with your portrait image, not over-zoomed while scrolling
-- About section
-- Skills / technical stack
-- Projects
-- Certifications
-- Contact footer
+Clone the repository, then install dependencies and start the development server:
+
+```sh
+git clone https://github.com/Acharfnazha/Achraf-portfolio.git
+cd Achraf-portfolio
+npm ci
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Project commands
+
+| Command | Purpose |
+| --- | --- |
+| `npm run dev` | Start the development server. |
+| `npm run lint` | Check the code with ESLint. |
+| `npm run build` | Build the site for production. |
+| `npm start` | Serve the production build. |
